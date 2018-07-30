@@ -132,3 +132,27 @@ h5 {
 h5, p {
   font-family: Georgia;
 }
+
+h1, h2 {
+  font-family: Georgia;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.caption {
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+}
+
+.image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg")
+}
