@@ -14,7 +14,6 @@ h1 {
   font-size: 28px;
   font-family: Georgia;
   text-transform: uppercase;
-  text-align: center;
 }
 
 h2 {
@@ -22,9 +21,8 @@ h2 {
   font-weight: 700;
   line-height: 2.5;
   font-family: Georgia;
+  word-spacing: 0.05em;
   letter-spacing: 0.02em;
-
-  
 }
 
 a {
@@ -103,6 +101,13 @@ a.home {
 }
 
 /* Font Card Sections */
+.font-card .garamond .sample .text{
+  font-family: Garamond, serif;
+}
+
+.helvetica .sample .text{
+  font-family: Helvetica, sans-serif;
+}
 
 .font-card {
   background-color: #ffffff;
