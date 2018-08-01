@@ -358,3 +358,40 @@ let listItem = newYearsResolutions[0];
 console.log(listItem);
 console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
+
+let newYearsResolutions = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
+
+let listItem = newYearsResolutions[0];
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
+
+let newYearsResolutions = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
+console.log(newYearsResolutions.length);
+
+let newYearsResolutions = ['Run a marathon', 'Learn a new language', 'Read 52 books', 'get a job at techtonics group', 'figure out how to get to boulder'];
+
+newYearsResolutions.push('Climb a mountain', 'Learn to Code');
+
+console.log(newYearsResolutions);
+
+newYearsResolutions.pop();
+console.log(newYearsResolutions);
+
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift();
+groceryList.unshift('popcorn');
+console.log(groceryList);
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('Onions');
+condiments = ['Sriracha'];
+console.log(condiments);
+utensils.pop();
+utensils = ['Seafood Hammer'];
