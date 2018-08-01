@@ -395,3 +395,33 @@ condiments = ['Sriracha'];
 console.log(condiments);
 utensils.pop();
 utensils = ['Seafood Hammer'];
+
+let vacationSpots = ['Cocoa Beach', 'Cape Canaveral', 'Miami'];
+
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
+let vacationSpots = ['Cocoa Beach', 'Cape Canaveral', 'Miami'];
+
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+let vacationSpots = ['Cocoa Beach', 'Cape Canaveral', 'Miami'];
+
+for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+let myPlaces = ['Cocoa Beach', 'Cape Canaveral', 'Miami'];
+
+let friendPlaces = ['The Moon', 'Mars', 'Miami'];
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+		if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(friendPlaces[friendPlacesIndex]);
+    }
+  }
+}
