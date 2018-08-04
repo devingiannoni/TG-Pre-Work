@@ -501,3 +501,273 @@ let smallerNums = nums.map(num => num - 5);
 // Choose a method that will return a boolean value
 nums.every(num => num < 0);
 
+let person = {
+  name: 'Devin Giannoni',
+  age: 34
+};
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34
+};
+console.log(person.name);
+console.log(person.age);
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34
+};
+console.log(person['name']);
+console.log(person['age']);
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM'
+};
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM'
+};
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM'
+};
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+person.hobbies = [person.hobbies.pop()];
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {
+    return 'Hello there!';
+  }
+};
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+person.hobbies = [person.hobbies.pop()];
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+console.log(person.sayHello());
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: () => {
+    return 'Hello there!';
+  },
+  sayGoodbye(){
+  return 'Goodbye!';
+}
+};
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+person.hobbies = [person.hobbies.pop()];
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+console.log(person.sayHello());
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: function() {
+    return `Hello, my name is ${this.name}`
+  },
+  sayGoodbye(){
+  return 'Goodbye!';
+}
+};
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+person.hobbies = [person.hobbies.pop()];
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+console.log(person.sayHello());
+
+let person = {
+  name: 'Devin Giannoni',
+  age: 34,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: function() {
+    return `Hello, my name is ${this.name}`
+  },
+
+  sayGoodbye(){
+  return 'Goodbye!';
+  }
+  
+};
+
+let friend = {
+  name: 'Wyatt Erp',
+  sayHello: person.sayHello,
+}
+
+person.hobbies = ['simpsons quotes', 'cooking italian food']
+person.hobbies = [person.hobbies.pop()];
+
+let day = 'Saturday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = person['weekendAlarm'];
+} else {
+  alarm = person['weekAlarm'];
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(alarm);
+console.log(person['hobbies']);
+console.log(person.sayHello());
+console.log(friend.sayHello());
+
+let person = {
+  _name: 'Lu Xun',
+  _age: 137,
+  
+  set age(ageIn) {
+    if (typeof ageIn === 'number') {
+      this._age = ageIn;
+    }
+    else {
+      console.log('Invalid input');
+      return 'Invalid input';
+    }
+  }
+
+};
+
+let person = {
+  _name: 'Lu Xun',
+  _age: 137,
+  
+  set age(ageIn) {
+    if (typeof ageIn === 'number') {
+      this._age = ageIn;
+    }
+    else {
+      console.log('Invalid input');
+      return 'Invalid input';
+    }
+  }
+
+};
+person.age = 39;
+
+let person = {
+  _name: 'Lu Xun',
+  _age: 137,
+  
+  set age(ageIn) {
+    if (typeof ageIn === 'number') {
+      this._age = ageIn;
+    }
+    else {
+      console.log('Invalid input');
+      return 'Invalid input';
+    }
+  },
+  
+  get age() {
+    console.log(`${this._name} is ${this._age} years old.`);
+    return this._age;
+  }
+
+};
+person.age = 39;
+console.log(person.age);
